@@ -1,10 +1,27 @@
 // Word List
-var wordList = [
-  "PLACEHOLDER 1",
-  "PLACEHOLDER 1",
-  "PLACEHOLDER 1",
-  "PLACEHOLDER 1",
-  "PLACEHOLDER 1"
+var elementList = [
+  // S
+  "Hydrogen",
+  "Helium",
+  // P
+  "Lithium",
+  "Beryllium",
+  "Boron",
+  "Carbon",
+  "Nitrogen",
+  "Oxygen",
+  "Fluorine",
+  "Neon",
+  // D
+  "Sodium",
+  "Magnesium",
+  "Aluminum",
+  "Silicon",
+  "Phosphorus",
+  "Sulfur",
+  "Chlorine",
+  "Argon"
+  // F (Not Added)
 ];
 
 // Lives
