@@ -1,27 +1,30 @@
-// Word List
+// Base Logic
+// Word List (Row/Orbital)
 var elementList = [
-  // S
+  // 1S
   "Hydrogen",
   "Helium",
-  // P
+  // 2S
   "Lithium",
   "Beryllium",
+  // 2P
   "Boron",
   "Carbon",
   "Nitrogen",
   "Oxygen",
   "Fluorine",
   "Neon",
-  // D
+  // 3S
   "Sodium",
   "Magnesium",
+  // 3P
   "Aluminum",
   "Silicon",
   "Phosphorus",
   "Sulfur",
   "Chlorine",
   "Argon"
-  // F (Not Added)
+  // 4S (Not Added)
 ];
 
 // Lives
