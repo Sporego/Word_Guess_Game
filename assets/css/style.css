@@ -1,2 +1,7 @@
 .introText {
+  font-family: "Quicksand", sans-serif;
+}
+
+.introMono {
+  font-family: "Major Mono Display", monospace;
 }
