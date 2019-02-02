@@ -18,10 +18,20 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+    <!-- Google Font -->
+    <!-- Major Mono -->
+    <!-- font-family: 'Major Mono Display', monospace; -->
+    <!-- Quicksand -->
+    <!-- font-family: 'Quicksand', sans-serif; -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Quicksand"
+      rel="stylesheet"
+    />
+    <!-- /Google Font -->
   </head>
   <body>
     <!-- Nav -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md  navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Filbert Shi</a>
       <button
         class="navbar-toggler"
@@ -47,19 +57,34 @@
     <div class="container">
       <!-- Alert Card -->
       <div class="row">
-        <div class="col-md-12">
-          <div class="alert alert-success" role="alert">
-            <h4 class="alert-heading">Periodic Mania | by Filbert Shi</h4>
-            <p>
-              Aww yeah, you successfully read this important alert message. This
-              example text is going to run a bit longer so that you can see how
-              spacing within an alert works with this kind of content.
+        <div class="col-lg-8">
+          <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading introMono">
+              Periodic Mania | by Filbert Shi
+            </h4>
+            <p class="introText">
+              About Game (PlaceHolder)
             </p>
             <hr />
-            <p class="mb-0" id="introText">
+            <p class="mb-0 introMono">
               Instructions
             </p>
             <hr />
+            <p class="introText">
+              1.Use keyboard to guess letters
+            </p>
+            <p class="introText">
+              2.Use spacebar to forfeit
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card alert-dark" style="width: 24rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Wins:</li>
+              <li class="list-group-item">Losses:</li>
+              <li class="list-group-item">Lives:</li>
+            </ul>
           </div>
         </div>
       </div>
